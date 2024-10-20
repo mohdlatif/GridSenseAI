@@ -295,7 +295,7 @@ export default function IntroPage() {
 
             {isLoading && (
               <div className="mt-8 text-center">
-                <p>Processing data with aimlapi API. Please wait...</p>
+                <p>Processing data with aimlapi API. Please wait....</p>
               </div>
             )}
 
