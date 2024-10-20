@@ -1,7 +1,0 @@
-{
-    "functions": {
-        "api/aimlapi-analysis": {
-            "maxDuration": 90
-        }
-    }
-}
