@@ -1,6 +1,6 @@
 {
     "functions": {
-        "api/*.js": {
+        "api/aimlapi-analysis": {
             "maxDuration": 90
         }
     }
