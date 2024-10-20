@@ -1,7 +1,7 @@
 {
     "functions": {
         "api/*.js": {
-            "maxDuration": 90 // These functions can run for a maximum of 15 seconds
+            "maxDuration": 90
         }
     }
 }
