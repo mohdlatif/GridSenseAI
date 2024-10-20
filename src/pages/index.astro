@@ -1,14 +1,13 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import "@/styles/main.css";
-import MicroGridOptimizer from "@/components/microgrid-animation";
-import IntroPage from "@/components/table";
+import MicroGridOptimizer from "@/components/micro-grid-optimizer";
+import IntroPage from "@/components/intro-page";
 ---
 
 <Layout title="Welcome to GridSense AI">
   <main>
-    <MicroGridOptimizer client:load />
-
+    <!-- <MicroGridOptimizer client:load /> -->
     <IntroPage client:load />
   </main>
 </Layout>
