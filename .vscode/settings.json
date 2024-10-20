@@ -1,0 +1,41 @@
+{
+    "css.customData": [
+        ".vscode/tailwind.json"
+    ],
+    "css.lint.unknownAtRules": "ignore",
+    "editor.codeActionsOnSave": {
+        // "source.fixAll.eslint": "always",
+        "source.fixAll": "always"
+    },
+    "eslint.validate": [
+        "astro",
+        "javascript",
+        "javascriptreact", // Enable .astro
+        "json", // Enable .ts
+        "json5", // Enable .tsx
+        "jsonc",
+        "toml",
+        "typescript",
+        "typescriptreact"
+    ],
+    "javascript.suggest.paths": false,
+    "javascript.validate.enable": false,
+    "prettier.documentSelectors": [
+        "**/*.astro",
+        "**/*.svg"
+    ],
+    "scss.lint.unknownAtRules": "ignore",
+    "typescript.suggest.paths": false,
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "yaml.schemas": {
+        "https://json.schemastore.org/github-action.json": [
+            "action.yaml",
+            "action.yml"
+        ],
+        // https://github.com/github/vscode-github-actions/issues/195#issuecomment-1570218818
+        "https://json.schemastore.org/github-workflow.json": [
+            "*.github/workflows/*.yaml",
+            "*.github/workflows/*.yml"
+        ]
+    }
+}
